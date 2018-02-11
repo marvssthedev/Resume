@@ -1,0 +1,28 @@
+body#root {
+  margin: 70px; }
+  body#root div.root-container:nth-child(1) div#name-section {
+    float: left; }
+  body#root div.root-container:nth-child(1) div#contact-section {
+    float: right; }
+    body#root div.root-container:nth-child(1) div#contact-section div#address {
+      margin-bottom: 30px; }
+    body#root div.root-container:nth-child(1) div#contact-section div#contact div.row {
+      margin: 10px 0 10px 0; }
+      body#root div.root-container:nth-child(1) div#contact-section div#contact div.row p, body#root div.root-container:nth-child(1) div#contact-section div#contact div.row a {
+        margin-left: 5px; }
+      body#root div.root-container:nth-child(1) div#contact-section div#contact div.row svg {
+        vertical-align: middle; }
+      body#root div.root-container:nth-child(1) div#contact-section div#contact div.row:first-child {
+        margin: 0 0 10px 0; }
+      body#root div.root-container:nth-child(1) div#contact-section div#contact div.row:last-child {
+        margin: 10px 0 0 0; }
+  body#root div.root-container:nth-child(2) h2 {
+    margin-bottom: 15px; }
+  body#root div.root-container:nth-child(2) div p.date {
+    margin-bottom: 15px; }
+  body#root div.root-container:nth-child(2) div ul.no-list-style {
+    list-style: none; }
+  body#root div.root-container:nth-child(3) {
+    margin-bottom: 15px; }
+    body#root div.root-container:nth-child(3) h2 {
+      margin-bottom: 15px; }
