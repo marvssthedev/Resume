@@ -20,25 +20,34 @@ body#root {
       body#root div.root-container:nth-child(1) div#contact-section div#contact div.row:last-child {
         margin: 10px 0 0 0; }
   body#root div.root-container:nth-child(2) {
-    page-break-after: always; }
+    margin-bottom: 30px; }
     body#root div.root-container:nth-child(2) h2 {
       margin-bottom: 15px; }
     body#root div.root-container:nth-child(2) div {
       margin-bottom: 30px; }
       body#root div.root-container:nth-child(2) div p.date {
         margin-bottom: 15px; }
+      body#root div.root-container:nth-child(2) div ul li {
+        margin: 10px 0 10px 0; }
+        body#root div.root-container:nth-child(2) div ul li:first-child {
+          margin: 0 0 10px 0; }
+        body#root div.root-container:nth-child(2) div ul li:last-child {
+          margin: 10px 0 0 0; }
       body#root div.root-container:nth-child(2) div:last-child {
         margin-bottom: 0; }
   body#root div.root-container:nth-child(3) {
+    margin-bottom: 30px;
+    page-break-after: always; }
+  body#root div.root-container:nth-child(4) {
     margin-top: 30px;
     margin-bottom: 30px; }
-    body#root div.root-container:nth-child(3) h2 {
+    body#root div.root-container:nth-child(4) h2 {
       margin-bottom: 15px; }
-  body#root div.root-container:nth-child(4) h2 {
+  body#root div.root-container:nth-child(5) h2 {
     margin-bottom: 15px; }
-  body#root div.root-container:nth-child(4) ul {
+  body#root div.root-container:nth-child(5) ul {
     margin: 15px 0 15px 0; }
-  body#root div.root-container:nth-child(4) ul.no-list-style {
+  body#root div.root-container:nth-child(5) ul.no-list-style {
     list-style: none; }
-  body#root div.root-container:nth-child(4) ul.list-style-disc {
+  body#root div.root-container:nth-child(5) ul.list-style-disc {
     list-style: disc; }
