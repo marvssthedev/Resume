@@ -5,6 +5,9 @@ body#root {
     margin-bottom: 30px; }
     body#root div.root-container:nth-child(1) div#name-section h1 {
       margin-bottom: 5px; }
+      body#root div.root-container:nth-child(1) div#name-section h1 span {
+        font-size: 16px;
+        font-weight: normal; }
     body#root div.root-container:nth-child(1) div#contact-section div#address {
       margin-bottom: 30px; }
     body#root div.root-container:nth-child(1) div#contact-section div#contact div.row {
@@ -50,3 +53,7 @@ body#root {
     list-style: none; }
   body#root div.root-container:nth-child(5) ul.list-style-disc {
     list-style: disc; }
+
+@media screen, print and (max-width: 1025px) {
+  div#name-section {
+    margin-bottom: 15px; } }

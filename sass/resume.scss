@@ -9,6 +9,11 @@ body#root {
             div#name-section {
                 h1 {
                     margin-bottom: 5px;
+
+                    span {
+                        font-size: 16px;
+                        font-weight: normal;
+                    }
                 }
             }
 
@@ -110,5 +115,11 @@ body#root {
                 list-style: disc;
             }
         }
+    }
+}
+
+@media screen, print and (max-width: 1025px) {
+    div#name-section {
+        margin-bottom: 15px;
     }
 }
